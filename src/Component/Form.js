@@ -49,7 +49,7 @@ const Form = () => {
                 type="password"
                 required
                 onChange={(e) => setPassword(e.target.value)}
-                placeholder="*******"
+                placeholder="*********"
               />
             </div>
             <input
@@ -60,9 +60,6 @@ const Form = () => {
             <span>Remember Me</span>
             <button className="btn">Sign In</button>
             <br />
-            {/* <input onClick={() => handleMode()} type="checkbox" />{" "} */}
-
-            {/* <span>Dark Mode</span> */}
           </div>
         </div>
       </CssBaseline>
